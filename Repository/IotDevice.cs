@@ -7,7 +7,7 @@ namespace IOTDeviceCRUD.Repository
     public class IotDevice
     {
         public static RegistryManager registryManager;
-        private static string connectionString = "HostName=shital-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=xlo3mPK3X5BnSMB22EXV7EoVPhLxh0Iw2PgnTcTQmZk=";
+        private static string connectionString = "HostName=shital-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=dIdfpc4qF/btsbJAcItzdtkYEbpaaenoTISBqMavDsA=";
         //static Device  device;
 
         public static async Task AddDeviceAsync(string deviceName)

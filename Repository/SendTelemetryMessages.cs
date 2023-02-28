@@ -10,10 +10,10 @@ namespace IOTDeviceCRUD.Repository.SendTelemetryMessages
 {
     public class SendTelemetryMessages
     {
-        private static string connectionString = "HostName=shital-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=xlo3mPK3X5BnSMB22EXV7EoVPhLxh0Iw2PgnTcTQmZk=";
+        private static string connectionString = "HostName=shital-iot-hub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=dIdfpc4qF/btsbJAcItzdtkYEbpaaenoTISBqMavDsA=";
         public static RegistryManager registryManager;
         public static DeviceClient client = null;
-        public static string myDeviceConnection = "HostName=shital-iot-hub.azure-devices.net;DeviceId=test;SharedAccessKey=UhzrwfLWZlFWnQq15jSisOdRZrZaZXBIWHmKXVjGe4E=";
+        public static string myDeviceConnection = "HostName=shital-iot-hub.azure-devices.net;DeviceId=Test;SharedAccessKey=htxXFl25kIWbSgVghvr5fhqXE/XYbs6x/8YGnc7InqI=";
         public static async Task SendMessage(string deviceName)
         {
             try
